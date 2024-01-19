@@ -4,6 +4,9 @@ about-alias 'vim abbreviations'
 _command_exists vim || return
 
 alias v='vim'
+# in case that vi is also installed
+alias vi='vim'
+alias vimd='vim -d'
 # open the vim help in fullscreen incorporated from
 # https://stackoverflow.com/a/4687513
 alias vimh='vim -c ":h | only"'
